@@ -1,3 +1,3 @@
 # greet-name
 
-to run type ```node greet.js name```
+to run type ```node greet name```
