@@ -10,7 +10,7 @@ describe('greet', function() {
 });
 
 describe('greet', function() {
-  it('will return Hello when passed nothing', function() {
+  it('will say Hello when passed nothing', function() {
     expect(greet.greet()).to.eql('Hello');
   });
 });
