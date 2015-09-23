@@ -1,6 +1,6 @@
 'use strict';
 
-var greet = require('../greet');
+var greet = require('../lib/greet');
 var expect = require('chai').expect;
 
 describe('greet', function() {
@@ -10,7 +10,7 @@ describe('greet', function() {
 });
 
 describe('greet', function() {
-  it('will return Hello when passed nothing', function() {
+  it('will say Hello when passed nothing', function() {
     expect(greet.greet()).to.eql('Hello');
   });
 });
